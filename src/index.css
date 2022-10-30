@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root{
+    --custom-green : #73c49a;
+    --custom-green-dark : #387b58;
+}
+
+.bg-custom-green{
+    background-color: var(--custom-green);
+}
+
+.text-custom-green{
+    color: var(--custom-green);
+}
+
+.bg-custom-green_hover{
+    background-color: var(--custom-green-dark);
+}
+
+.text-custom-green_hover{
+    color: var(--custom-green-dark);
+}
